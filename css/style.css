@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777777;
+    padding: 6px;
+}
+
+.header {
+    height: 98vh;
+    background-image: linear-gradient(to right bottom, 
+    rgba(71, 71, 71, 0.664), 
+    rgba(47, 47, 47, 0.658)), 
+    url(../img/rami-al-zayat-w33-zg-dNL4-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    border-radius: 8px;
+
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+}
+
+.logo-box {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.text-box {
+    position: absolute;
+    top: 25%;
+    left: 65%;
+}
+
+.heading-primary {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
